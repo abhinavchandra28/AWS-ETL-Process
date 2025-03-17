@@ -15,3 +15,11 @@ This repository contains an end-to-end batch ETL pipeline using AWS services to 
 4️⃣ Automation → AWS Lambda triggers Glue when new files are uploaded
 
 5️⃣ Deployment → Use Python Boto3 to deploy the infrastructure
+
+
+Edit the glue_etl.py script according to your use case for the columns, data and tables in use.
+Set up an AWS account with
+Enabled S3, glue, lambda, step functions etc.
+Create IAM roles.
+Installed python 3.8+
+Installed boto3 and CLI for deployment.
